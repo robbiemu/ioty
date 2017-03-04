@@ -4,6 +4,7 @@ export default class Package {
   constructor (name) {
     this.id = uuidV1()
     this.name = name
-    this.collection = []
+    this.solution = []
+    this.cost = 0
   }
 }

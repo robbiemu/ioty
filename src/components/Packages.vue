@@ -2,7 +2,7 @@
   <div id="packages">
     <h1>Packages</h1>
     <ul>
-      <li v-for="package in packages.packages"><app-package v-bind:package="package" /></li>
+      <li v-for="package in packages.packages"><app-package v-bind:package="package" v-bind:admin="true" /></li>
     </ul>
   </div>
 </template>

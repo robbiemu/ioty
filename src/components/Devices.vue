@@ -2,7 +2,7 @@
   <div id="devices">
     <h1>Devices</h1>
     <ul>
-      <li v-for="device in iotds.iotds"><app-device v-bind:device="device" /></li>
+      <li v-for="device in iotds.iotds"><app-device v-bind:device="device" v-bind:admin="true" /></li>
     </ul>
   </div>
 </template>

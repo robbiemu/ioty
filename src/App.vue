@@ -16,4 +16,9 @@ export default {
 </script>
 
 <style>
+#app > div {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
 </style>
